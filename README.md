@@ -22,6 +22,6 @@ This is a simple web-based calculator capable of performing basic arithmetic ope
 ## Setup
 To set up this project locally:
 
-git clone https://github.com/yourusername/simple-calculator.git
+git clone https://github.com/metenis/simple-calculator.git
 cd simple-calculator
 
