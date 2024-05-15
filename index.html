@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Defines the document type and version of HTML -->
+<html lang="en">
+<!-- Root element of the webpage, set to English language -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Viewport meta tag to control layout on mobile browsers -->
+    <title>Simple Calculator</title>
+    <!-- Title of the document shown in browser tab -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="calculator">
+        <!-- Main container for calculator -->
+        <input type="text" id="display" readonly>
+        <!-- Input display where calculation results or inputs are shown, set to readonly to prevent direct user input -->
+        <div class="keys">
+            <!-- Container for calculator buttons -->
+            <button type="button" class="key-num" data-num="1">1</button>
+            <!-- Button representing number '1' -->
+            <button type="button" class="key-num" data-num="2">2</button>
+            <!-- Button representing number '2' -->
+            <button type="button" class="key-num" data-num="3">3</button>
+            <!-- Button representing number '3' -->
+            <button type="button" class="key-op" data-op="+">+</button>
+            <!-- Button representing addition operation -->
+            <button type="button" class="key-num" data-num="4">4</button>
+            <!-- Button representing number '4' -->
+            <button type="button" class="key-num" data-num="5">5</button>
+            <!-- Button representing number '5' -->
+            <button type="button" class="key-num" data-num="6">6</button>
+            <!-- Button representing number '6' -->
+            <button type="button" class="key-op" data-op="-">-</button>
+            <!-- Button representing subtraction operation -->
+            <button type="button" class="key-num" data-num="7">7</button>
+            <!-- Button representing number '7' -->
+            <button type="button" class="key-num" data-num="8">8</button>
+            <!-- Button representing number '8' -->
+            <button type="button" class="key-num" data-num="9">9</button>
+            <!-- Button representing number '9' -->
+            <button type="button" class="key-op" data-op="*">*</button>
+            <!-- Button representing multiplication operation -->
+            <button type="button" class="key-num" data-num="0">0</button>
+            <!-- Button representing number '0' -->
+            <button type="button" class="key-clear">C</button>
+            <!-- Button to clear the current input or calculation -->
+            <button type="button" class="key-eq">=</button>
+            <!-- Button to calculate and display the result -->
+            <button type="button" class="key-op" data-op="/">/</button>
+            <!-- Button representing division operation -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Link to external JavaScript file for functional logic -->
+</body>
+</html>

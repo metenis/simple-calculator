@@ -1,0 +1,51 @@
+/* General body styles, centers everything on the page vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+/* Styling for the calculator's main container */
+.calculator {
+    width: 200px; /* Fixed width for the calculator */
+    background-color: #fff; /* White background color */
+    padding: 20px; /* Padding around the inside of the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Shadow for 3D effect */
+}
+
+/* Styling for the input display of the calculator */
+input#display {
+    width: 100%; /* Takes the full width of its parent */
+    height: 40px; /* Fixed height for better visibility */
+    margin-bottom: 10px; /* Space below the display */
+    text-align: right; /* Aligns text to the right */
+    padding: 5px; /* Padding inside the input box */
+    font-size: 1.5em; /* Larger text for easy reading */
+    border: 1px solid #ccc; /* Light grey border */
+}
+
+/* Grid layout for keys to align them in a matrix form */
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns of equal width */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Generic button styling */
+button {
+    height: 40px; /* Fixed height for all buttons */
+    background-color: #f9f9f9; /* Very light grey background */
+    border: 1px solid #ccc; /* Light grey border matching the display */
+    border-radius: 5px; /* Rounded corners for the buttons */
+    font-size: 1.2em; /* Slightly larger text within buttons */
+    cursor: pointer; /* Pointer cursor on hover to indicate interactivity */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #e0e0e0; /* Darker grey background on hover */
+}
